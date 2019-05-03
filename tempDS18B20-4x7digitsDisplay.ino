@@ -1,3 +1,12 @@
+/*
+DS18B20 temperature sensor and 4 7digits diplay control 
+
+Maxime Chretien
+
+v1.2
+*/
+
+
 #include <OneWire.h>
 
 const int digitsPins[8] = {5, 4, 2, 1, 0, 7, 8, 3};
